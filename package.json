@@ -8,7 +8,7 @@
     "src"
   ],
   "scripts": {
-    "build": "standard && npm test && NODE_ENV=production webpack --env build",
+    "build": "standard && npm test && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "jest",
     "standard": "standard"
