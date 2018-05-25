@@ -183,7 +183,7 @@ class Overdrive extends React.Component {
   }
 
   render () {
-    const { id, duration, animationDelay, style = {}, children, element, ...rest } = this.props
+    const { id, duration, easing, animationDelay, style = {}, children, element, ...rest } = this.props
     const newStyle = {
       ...style,
       opacity: (this.state.loading ? 0 : 1)
